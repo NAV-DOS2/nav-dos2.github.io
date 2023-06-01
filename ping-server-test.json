@@ -1,0 +1,41 @@
+{
+    "SysPluto": [
+        {
+            "DisplayValue": [
+                {
+                    "Title": "Test Server",
+                    "Description": "This server responded, wow..."
+                }
+            ],
+            "SysRequirementsValue": [
+                {
+                    "MinVer": "MinVer",
+                    "RecVer": "RecVer",
+                    "MaxVer": "MaxVer" 
+                }
+            ],
+            "AppOrServerValue": [
+                {
+                    "IsApp": "True/False",
+                    "AppValue": [
+                        {
+                            "PackType": "local/sys/server",
+                            "PackStyle": "pluto/python",
+                            "PackName": "example_test",
+                            "What": "This creates local.pluto-example_test codename that system can use. Note that \".\", \"-\" and \"_\" are separating characters!"
+                        }
+                    ],
+                    "IsServer": "True/False",
+                    "ServerValue": [
+                        {
+                            "ServerURL": "URL",
+                            "ServerID": "ID",
+                            "ServerName": "Name",
+                            "ServerType": "pluto/html"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
