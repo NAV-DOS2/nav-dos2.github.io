@@ -9,33 +9,37 @@
             ],
             "SysRequirementsValue": [
                 {
-                    "MinVer": "MinVer",
-                    "RecVer": "RecVer",
-                    "MaxVer": "MaxVer" 
+                    "MinVer": "0",
+                    "RecVer": "0",
+                    "MaxVer": "99999" 
                 }
             ],
             "AppOrServerValue": [
                 {
-                    "IsApp": "True/False",
+                    "IsApp": "False",
                     "AppValue": [
                         {
                             "PackType": "local/sys/server",
                             "PackStyle": "pluto/python",
                             "PackName": "example_test",
-                            "What": "This creates local.pluto-example_test codename that system can use. Note that \".\", \"-\" and \"_\" are separating characters!"
+                            "What": "This creates local.pluto-example_test codename that system can use. Note that \".\" and \"-\" are separating characters!"
                         }
                     ],
-                    "IsServer": "True/False",
+                    "IsServer": "True",
                     "ServerValue": [
                         {
-                            "ServerURL": "URL",
-                            "ServerID": "ID",
-                            "ServerName": "Name",
-                            "ServerType": "pluto/html"
+                            "ServerURL": "https://cnd-host-image.navdaa.site",
+                            "ServerID": "#3881",
+                            "ServerName": "File Deposit",
+                            "ServerType": "pluto"
                         }
                     ]
                 }
             ]
         }
+    ],
+
+    "SysPython": [
+        "__ConsoleWriteLine__(\"#3881: Pong\")"
     ]
 }
