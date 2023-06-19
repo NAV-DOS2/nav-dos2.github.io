@@ -31,7 +31,8 @@
                             "ServerURL": "URL",
                             "ServerID": "ID",
                             "ServerName": "Name",
-                            "ServerType": "pluto/html"
+                            "ServerType": "pluto/html",
+                            "ServerVersion": "Version"
                         }
                     ]
                 }
