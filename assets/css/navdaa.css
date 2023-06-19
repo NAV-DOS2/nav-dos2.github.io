@@ -1,2 +1,8 @@
 /* WORK IN PROGRESS!
    (c) NAVDAA Sodtware 2023 */
+
+body {
+   background-color: darkgray;
+   color: white;
+   font-family: "Fira Code", monospace;
+}
