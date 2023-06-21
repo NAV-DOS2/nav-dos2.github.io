@@ -1,34 +1,67 @@
 /* WORK IN PROGRESS!
-   (c) NAVDAA Sodtware 2023 */
+   (c) NAVDAA Software 2023 */
 
-body {
-   background-color: rgb(34, 37, 46);
-   color: rgb(213, 214, 244);
-   font-family: 'Fira Code', monospace;
-   margin: 0;
-   padding: 0;
- }
- 
- .container {
-   display: flex;
- }
- 
- .left-half {
-   width: 50%;
-   background-image: url(https://cdn-store-image.navdaa.site/assets/images/bg-v1/bg-img-1.png);
-   background-size: cover;
-   background-position: center;
- }
- 
- .right-half {
-   width: 50%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   text-align: left;
-   background-color: rgb(34, 37, 46);
- }
- 
- .content {
-   padding: 20px;
- }
+   body {
+    background-color: rgb(34, 37, 46);
+    color: rgb(213, 214, 244);
+    font-family: 'Fira Code', monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+.container {
+  display: flex;
+  flex: 1;
+}
+
+hr {
+  border-color: rgb(213, 214, 244);
+}
+
+.left-half {
+  width: 50%;
+  background-image: url(https://cdn-store-image.navdaa.site/assets/images/bg-v1/bg-img-1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.right-half {
+  width: 50%;
+  background-image: url(https://cdn-store-image.navdaa.site/assets/images/bg-v1/bg-img-2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  background-color: rgb(34, 37, 46);
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .left-half,
+  .right-half {
+    width: 100%;
+  }
+}
+
+.content {
+  padding: 20px;
+}
+
+.footer {
+  background-color: rgb(34, 37, 46);
+  color: rgb(213, 214, 244);
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  margin-top: auto;
+}
