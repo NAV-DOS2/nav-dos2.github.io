@@ -26,7 +26,7 @@ body {
    align-items: center;
    justify-content: center;
    text-align: left;
-   background-color: #ffffff; /* Set your desired background color */
+   background-color: rgb(34, 37, 46);
  }
  
  .content {
