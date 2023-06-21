@@ -13,19 +13,19 @@ body {
    display: flex;
  }
  
- .left-half {
+ .right-half {
    width: 50%;
    background-image: url(https://cdn-store-image.navdaa.site/assets/images/bg-v1/bg-img-1.png);
    background-size: cover;
    background-position: center;
  }
  
- .right-half {
+ .left-half {
    width: 50%;
    display: flex;
    align-items: center;
    justify-content: center;
-   text-align: left;
+   text-align: right;
    background-color: rgb(34, 37, 46);
  }
  
