@@ -15,4 +15,4 @@ System Log:
  [428754-A] | [SYS.PLUTO.MESSENGER.BETA.PY] @ [1992-09-23 ~ 03:00:01] | [ERROR ~ Ex5640x0012] | [LOG: EXAMPLE ERROR, NO REAL MEANING, PROGRAM RETURNED 0]
 
 User Console:
- NavMessenger@[1899-12-31~23:59]: [Stats] Sx5478x0001: Program exitted without any errors.
+ NavMessenger@[1899-12-31~23:59]: [Stats] Sx5478x0001 Program exitted without any errors.
