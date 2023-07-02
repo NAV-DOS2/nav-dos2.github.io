@@ -1,0 +1,12 @@
+{
+    "messages": [
+      {
+        "id": "001",
+        "message": "Hello"
+      },
+      {
+        "id": "002",
+        "message": "Hi"
+      }
+    ]
+  }
