@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<busSplash>
+    <settings>
+        <lang>en_AU</lang>
+    </settings>
+    <routeData>
+        <line>
+            <num cat="1">1</num>
+            <num cat="2">7</num>
+            <num cat="3">3</num>
+            <num cat="4"></num>
+        </line>
+        <variant>1</variant>
+        <startPoint>Tarnowskie Góry Dworzec</startPoint>
+        <endPoint>Bytom Dworzec</endPoint>
+        <stops>
+            <stop name="Tarnowskie Góry Dworzec" isOnDemand="no"></stop>
+            <stop name="Tarnowskie Góry Stara" isOnDemand="no"></stop>
+            <stop name="Tarnowskie Góry Księdza Siwca" isOnDemand="no"></stop>
+            <stop name="Lasowice Osiedle" isOnDemand="no"></stop>
+            <stop name="Nowe Chechło Kolonia [nż]" isOnDemand="yes"></stop>
+            <stop name="Nowe Chechło Tartak [nż]" isOnDemand="yes"></stop>
+            <stop name="Nowe Chechło Szkoła" isOnDemand="no"></stop>
+            <stop name="Nowe Chechło Cmentarz [nż]" isOnDemand="yes"></stop>
+            <stop name="Świerklaniec Bank" isOnDemand="no"></stop>
+            <stop name="Świerklaniec Centrum" isOnDemand="no"></stop>
+            <stop name="Świerklaniec Oświęcimska" isOnDemand="no"></stop>
+            <stop name="Świerklaniec Park" isOnDemand="no"></stop>
+            <stop name="Świerklaniec Szkoła" isOnDemand="no"></stop>
+            <stop name="Świerklaniec Radzionkowska [nż]" isOnDemand="yes"></stop>
+            <stop name="Orzech Bytomska" isOnDemand="no"></stop>
+            <stop name="Orzech Szkoła" isOnDemand="no"></stop>
+            <stop name="Orzech Kolejowa [nż]" isOnDemand="yes"></stop>
+            <stop name="Radzionków Dworzec PKP" isOnDemand="no"></stop>
+            <stop name="Radzionków Norwida" isOnDemand="no"></stop>
+            <stop name="Radzionków Knosały" isOnDemand="no"></stop>
+            <stop name="Radzionków Plac Letochów" isOnDemand="no"></stop>
+            <stop name="Radzionków Targowisko" isOnDemand="no"></stop>
+            <stop name="Rojca Centrum Przesiadkowe" isOnDemand="no"></stop>
+            <stop name="Rojca Nieznanego Żołnierza" isOnDemand="no"></stop>
+            <stop name="Rojca Muzeum Chleba [nż]" isOnDemand="yes"></stop>
+            <stop name="Rojca Baza Paliw" isOnDemand="no"></stop>
+            <stop name="Rojca Szarlejka [nż]" isOnDemand="yes"></stop>
+            <stop name="Bytom Dworska [nż]" isOnDemand="yes"></stop>
+            <stop name="Bytom Baza Transportowa [nż]" isOnDemand="yes"></stop>
+            <stop name="Bytom Dom Pogrzebowy" isOnDemand="no"></stop>
+            <stop name="Bytom Odrzańska [nż]" isOnDemand="yes"></stop>
+            <stop name="Bytom Fałata" isOnDemand="no"></stop>
+            <stop name="Bytom Strzelców Bytomskich" isOnDemand="no"></stop>
+            <stop name="Bytom Dworzec" isOnDemand="no"></stop>
+        </stops>
+    </routeData>
+</busSplash>
+
+ <!-- 
+Variants:
+1: Full Route
+2: Bytom Dworzec <-> Świerklaniec Park
+3: Bytom Dworzec <-> Tarnowskie Góry Dworzec; Skips Nowe Chechło Sklep
+ -->

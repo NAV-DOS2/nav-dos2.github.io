@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<busSplash>
+    <settings>
+        <lang>en_AU</lang>
+    </settings>
+    <routeData>
+        <line>
+            <num cat="1">1</num>
+            <num cat="2">7</num>
+            <num cat="3">3</num>
+            <num cat="4"></num>
+        </line>
+        <variant>1</variant>
+        <startPoint>Tarnowskie Góry Dworzec</startPoint>
+        <endPoint>Świerklaniec Park</endPoint>
+        <stops>
+            <stop name="Tarnowskie Góry Dworzec" isOnDemand="no"></stop>
+            <stop name="Tarnowskie Góry Stara" isOnDemand="no"></stop>
+            <stop name="Tarnowskie Góry Księdza Siwca" isOnDemand="no"></stop>
+            <stop name="Lasowice Osiedle" isOnDemand="no"></stop>
+            <stop name="Nowe Chechło Kolonia [nż]" isOnDemand="yes"></stop>
+            <stop name="Nowe Chechło Tartak [nż]" isOnDemand="yes"></stop>
+            <stop name="Nowe Chechło Szkoła" isOnDemand="no"></stop>
+            <stop name="Nowe Chechło Sklep" isOnDemand="no"></stop>
+            <stop name="Nowe Chechło Cmentarz [nż]" isOnDemand="yes"></stop>
+            <stop name="Świerklaniec Bank" isOnDemand="no"></stop>
+            <stop name="Świerklaniec Centrum" isOnDemand="no"></stop>
+            <stop name="Świerklaniec Oświęcimska" isOnDemand="no"></stop>
+            <stop name="Świerklaniec Park" isOnDemand="no"></stop>
+        </stops>
+    </routeData>
+</busSplash>
+
+ <!-- 
+Variants:
+1: Full Route
+2: Bytom Dworzec <-> Świerklaniec Park
+3: Bytom Dworzec <-> Tarnowskie Góry Dworzec; Skips Nowe Chechło Sklep
+ -->
