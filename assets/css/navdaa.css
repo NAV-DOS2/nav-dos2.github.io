@@ -29,6 +29,14 @@ hr {
   background-repeat: no-repeat;
 }
 
+.left-half-err {
+  width: 50%;
+  background-image: url(https://cdn-store-image.navdaa.site/assets/images/bg-v1/404-v1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .right-half-img {
   width: 50%;
   background-image: url(https://cdn-store-image.navdaa.site/assets/images/bg-v1/bg-img-2.png);
